@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero-section{
+    /* min-height: 100vh; */
+    /* background-color: #f99501; */
+    background-image: url(orange-backdrop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-box{
+    margin-left: 15rem;
+}
+.hero-section p{
+    margin-bottom: 20px;
+    max-width: 400px;
+    min-height: 100px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero-section .jhalar{
+    height: 220px;
+    width: 220px;
+    margin-bottom: -150px;
+}
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #a0276e;
+  color: #a0276e;
+  
+}
+
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #a0276e;
+    border-radius: 2rem;
+    max-width: max-content;
+    padding-left: 20px;
+}
+
+
+/* middle section of page */
+
+.middle{
+    background-color: #f99501;
+}
+
+.horizontal-divider{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.horizontal-line{
+    width: 40%;
+    height: 4px;
+    background-color: #FBD8A4;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    background-color:  #FBD8A4;
+    border-radius: 50%;
+}
+
+.middle img{
+    width: 95%;
+    display: block;
+    margin-inline: auto;
+}
+.middle h1{
+    font-family: cursive;
+    text-align: center;
+    font-size: 3rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    font-weight: 900;
+}
+
+.white-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    /* margin-inline: auto; */
+    margin-left: 130px;
+}
+
+.white-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.white-card p{
+    width: 60%;
+    min-height: 400px;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight: 900;   
+    border-radius: 1rem;
+    padding: 30px;
+    margin-left: 10px;
+    padding-top: 80px;
+}
+.white-card img{
+    width: 265px;
+    height: 500px;
+    margin-left: -80px;
+}
+
+/* last section of page */
+
+.end{
+    background-color: #f99501;
+    padding-bottom: 40px;
+}
+
+.image-section{
+    margin-top: 10px;
+    padding: 1rem;
+    margin-bottom: 20px;
+    width: 95%;    
+    margin-inline: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lakshmi{
+    width: 50%;
+}
+.ganesh{
+    width: 50%;
+}
+
+.end p{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.end h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.end h6{
+   text-align: end;
+   margin-top: 10px;
+   margin-right: 20px;
+   font-size: 16px;
+}
+
+@media(max-width:830px){
+    .first-deepak{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .second-deepak,.music h3,.frequency{
+        display: none;
+    }
+    .p-box{
+        margin-left: 2rem;
+    }
+    .hero-section .jhalar{        
+        margin-bottom: 0;
+    }    
+    .music{
+        width: 400px;
+    }
+    .hero-section p{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .middle h1{
+        font-size: 2.5rem;
+    }
+    .white-card{
+        padding: 40px;
+        width: 97%;
+    }
+    .white-card-container{
+        margin-left: 0;
+    }
+    .white-card img{
+        width: 200px;
+        height: 400px;
+        margin-left: -40px;
+    }
+    .white-card p{
+        margin-left: 0;
+        font-size: 20px;
+        padding-top: 40px;
+        padding: 20px;
+        min-height: 300px;
+    }
+    .end h1{        
+        font-size: 30px;
+    }
+}
+
+@media(max-width:470px){
+    .hero-section p{
+        font-size: 24px;
+    }
+    .first-deepak,.music{   
+        width: 100%;
+    }
+    .middle h1{
+        font-size: 2rem;
+    }
+    .white-card p{
+        font-size: 15px;
+        margin-left: 0;
+        /* padding: 10px; */
+    }
+    .white-card{
+        padding: 20px;
+        width: 98%;       
+    }
+    /* .white-card p{
+        padding: 10px;
+    } */
+    .white-card-container{
+        margin-left: 5px;
+    }
+    .white-card img{
+        width: 165px;
+        height: 378px;
+        margin-left: -30px;
+    }
+    .end h1{        
+        font-size: 20px;
+    }
+    .end p{
+        margin-left: 10px;        
+        font-size: 15px;
+    }
+}
